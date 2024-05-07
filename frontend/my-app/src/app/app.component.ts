@@ -48,7 +48,7 @@ export class AppComponent {
 
           if (start < fileSize) {
             uploadChunk();
-            this.value = (start / fileSize) * 100;
+            this.value = Math.round((start / fileSize) * 100);
           } else {
             this.value = 100;
             this.message = 'Upload complete';
