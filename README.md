@@ -11,9 +11,9 @@ To get started with the Chunk Uploader project, follow these steps:
 
 2. Once the repository is cloned, navigate to the chunkuploader directory:
 
-3. Inside the chunkuploader directory, you'll find separate frontend and backend.
+3. Inside the chunkuploader directory, you'll find separate frontend and backend folders.
 
-4. Install the dependencies inside chunkuploader which contains frontend and backend using command:
+4. Install the dependencies inside chunkuploader which contains frontend and backend folders using command:
    -->  npm init
    -->  npm install
 
@@ -21,6 +21,6 @@ To get started with the Chunk Uploader project, follow these steps:
 
 6. Run the backend server while you are inside the chunkuploader directory using command ---> npm run dev
 
-7. Run the angular app in different terminal using command ----> ng serve
+7. Run the angular app while you are inside the frontend/my-app in different terminal using command ----> ng serve
 
 8. This will start the Angular development server. You can access the frontend of the application in your browser at http://localhost:4200.
